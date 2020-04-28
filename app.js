@@ -24,3 +24,10 @@ square.forEach(id => {
         }
     })
 })
+
+function moveMole() {
+    let timeLeft = null
+    timerId = setInterval(randomSquare, 1000)
+}
+
+moveMole()
