@@ -4,7 +4,7 @@ const timeLeft = document.querySelector('#time-left')
 let score = document.querySelector('#score')
 
 let result = 0
-let currentTime = timeleft.textContent
+let currentTime = timeLeft.textContent
 
 function randomSquare() {
     square.forEach(className => {
@@ -39,7 +39,7 @@ function countDown() {
 
     if (currentTime === 0) {
         clearInterval(timerId)
-        alert('Game Over! Your final score is: ' + results)
+        alert('Game Over! Your final score is: ' + result)
     }
 }
 
